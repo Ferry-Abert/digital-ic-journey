@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Simulation
+obj_dir/
+*.vcd
+*.fst
+*.vpd
+*.fsdb
+simv*
+csrc/
+
+# EDA artifacts
+build/
+outputs/
+results/
+*.gds
+*.gdsii
+*.def
+*.spef
+
+# Local environment
+.env

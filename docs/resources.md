@@ -1,42 +1,38 @@
 # EECS151 Learning Resources
 
-## 1. Primary Course — Fall 2022
+## Course Configuration
 
-- [Official Course Website](https://www-inst.eecs.berkeley.edu/~eecs151/fa22/)
-- [Lecture & Discussion Videos (Bilibili)](https://www.bilibili.com/video/BV1Lj411V7GJ/)
+| Component | Version |
+|---|---|
+| Lecture Videos | Fall 2022 |
+| Lecture Slides | Fall 2026 |
+| Discussions | Fall 2026 |
+| Homework | Fall 2026 |
+| ASIC Labs | Fall 2026 |
+| Exams | Fall 2026, when public |
 
-The official course website contains:
-- Lecture slides and recordings
-- Discussion slides and recordings
-- Homework and selected solutions
-- ASIC and FPGA laboratory links
+## Primary Resources
 
-## 2. Supplementary Course — Fall 2026
+- [Fall 2026 Course Calendar](https://eecs151.org/)
+- [Fall 2022 Course Archive and Videos](https://www-inst.eecs.berkeley.edu/~eecs151/fa22/)
+- [Fall 2022 Video Collection](https://www.bilibili.com/video/BV1Lj411V7GJ/)
+- [Fall 2026 ASIC Lab 1](https://eecs151.org/asic/lab1/)
+- [Fall 2026 ASIC Lab 2](https://eecs151.org/asic/lab2/)
+- [Fall 2026 ASIC Lab 3](https://eecs151.org/asic/lab3/)
+- [Fall 2026 ASIC Lab 4](https://eecs151.org/asic/lab4/)
+- [Fall 2026 ASIC Lab 5](https://eecs151.org/asic/lab5/)
 
-- [Official Course Website](https://eecs151.org/)
-- Focus: Verification, Formal Methods, and updated ASIC labs
-
-## 3. ASIC Laboratories
-
-- [Fall 2022 ASIC Labs](https://github.com/EECS150/asic-labs-fa22)
-- [Spring 2026 ASIC Labs](https://github.com/EECS-151/asic-labs-sp26)
-
-## 4. Open-Source EDA Tools
+## Open-Source EDA
 
 - [Verilator](https://github.com/verilator/verilator)
 - [Yosys](https://github.com/YosysHQ/yosys)
 - [OpenROAD Flow Scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)
-- [GTKWave](https://gtkwave.sourceforge.net/)
-
-## 5. Learning Strategy
-
-1. Watch the Fall 2022 lectures.
-2. Read the corresponding official lecture slides.
-3. Complete selected homework and discussion problems.
-4. Follow the Fall 2022 ASIC laboratory sequence.
-5. Supplement verification topics with the 2026 materials.
-6. Complete an independent RTL-to-GDSII project.
+- [SkyWater SKY130 PDK](https://github.com/google/skywater-pdk)
 
 ## Notes
 
-Course materials are referenced through official links where possible. Independent implementations, notes, scripts, and experiment reports are maintained in this repository.
+- Lecture numbering may differ between 2022 and 2026.
+- Track learning by topic rather than lecture number.
+- Complete Discussion and Homework alongside Lectures.
+- Fall 2026 ASIC skeleton code may require Berkeley access.
+- Adapt restricted commercial-tool exercises to open-source tools.

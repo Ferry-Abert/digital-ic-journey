@@ -1,47 +1,45 @@
 # Digital IC Design Journey
 
-A personal repository documenting my journey in digital integrated circuit design, ASIC implementation, and computer architecture.
+A personal learning and engineering repository for
+digital integrated circuit design and ASIC implementation.
 
-## Goals
+## Course
 
-- Master digital logic design and SystemVerilog.
-- Understand the complete RTL-to-GDSII design flow.
-- Gain hands-on experience with ASIC design tools.
-- Analyze performance, power, and area (PPA) trade-offs.
-- Build a foundation for accelerator architecture research.
+UC Berkeley EECS 151/251A
 
-## Learning Resources
+- **Lecture Videos:** Fall 2022
+- **Slides:** Fall 2026
+- **Discussions:** Fall 2026
+- **Homework:** Fall 2026
+- **ASIC Labs:** Fall 2026
+- **Technology:** SKY130
+- **Independent Tools:** Verilator, Yosys, OpenROAD
 
-- [UC Berkeley EECS151](https://eecs151.org/)
-- [2022 ASIC Labs](https://github.com/EECS150/asic-labs-fa22)
-- [2026 ASIC Labs](https://github.com/EECS-151/asic-labs-sp26)
-- [OpenROAD Flow Scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts)
+## Study Progress
+
+- [x] Watched Fall 2022 Lecture 1-3
+- [ ] Review corresponding Fall 2026 slides
+- [ ] Complete Fall 2026 discussions and homework
+- [ ] Complete ASIC Labs 1-5
+- [ ] Complete an independent RTL-to-GDSII project
+
+## Documentation
+
+- [Learning Roadmap](docs/roadmap.md)
+- [Learning Resources](docs/resources.md)
 
 ## Repository Structure
 
-| Directory | Description |
-|---|---|
-| `docs/` | Learning notes, roadmap, and resources |
-| `rtl/` | RTL implementations and testbenches |
-| `labs/` | ASIC laboratory exercises |
-| `projects/` | Independent hardware projects |
-| `scripts/` | Automation utilities |
+- `docs/` — Notes, discussions, homework, exams and reports
+- `rtl/` — Independent RTL designs and testbenches
+- `labs/` — Fall 2026 ASIC Lab adaptations
+- `projects/` — Independent hardware projects
+- `scripts/` — EDA and automation scripts
 
-## Learning Roadmap
+## Objective
 
-1. Digital Logic & SystemVerilog
-2. RTL Simulation & Verification
-3. Logic Synthesis & Static Timing Analysis
-4. Floorplanning & Placement
-5. Clock Tree Synthesis & Routing
-6. SRAM Integration & Physical Verification
-7. Advanced Verification
-8. Independent RTL-to-GDSII Project
+Build a reproducible RTL-to-GDSII flow and develop
+the ability to analyze architecture and PPA trade-offs.
 
-## Final Objective
-
-Complete a reproducible RTL-to-GDSII project and evaluate its architecture, timing, area, and power characteristics.
-
----
-
-*Independent learning project based on publicly available educational materials. Not affiliated with UC Berkeley.*
+This is an independent learning project and is not
+affiliated with UC Berkeley.
